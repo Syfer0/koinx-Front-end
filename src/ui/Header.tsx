@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from '../assets/image.png';
+import { FiAlignJustify } from 'react-icons/fi';
 
 function Header() {
   return (
-    <div className=" flex bg-red-700">
-      <img src={logo} alt="Logo" className=" px-32" />
-      <h1 className=" text-xl text-stone-950 ">test q</h1>
+    <div className="flex items-center gap-4">
+      <img src={logo} alt="Logo" className="w-81 h-60.75" />
+      <FiAlignJustify className="h-[27.42px] w-[27.42px]" />
     </div>
   );
 }
